@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>Latest_Twitter_Feeds</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open software license</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Latest Twitter Feeds Extension is Powered with new oAuth API 1.1. and it will show your latest twitter feeds in your website sidebar as well as on any CMS page of your choice. </summary>
+    <description>*Features*&#xD;
+* It has the option of Light and Dark theme.&#xD;
+*.You can show the Twitter Intents (Reply, Retweet and Like).&#xD;
+* The Latest Twitter Feeds is featured with oAuth 1.1 API&#xD;
+* You can manage number of Tweets.&#xD;
+* You can add your own twitter feed url.&#xD;
+* Linkup # and @ tags from your Twitter Feed.&#xD;
+* You can show Follow twitter button too.&#xD;
+* Its having an Options for open the links in same or in new window.&#xD;
+* You can choose to display the latest Tweets in left or right sidebar of your magento store.&#xD;
+* You can also show your twitter feeds on any CMS page of your choice.</description>
+    <notes>Stable Release</notes>
+    <authors><author><name>Magekul Software</name><user>MagekulSoftware</user><email>magekulsoftware@gmail.com</email></author></authors>
+    <date>2016-02-06</date>
+    <time>17:29:37</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Magekul_Tweets.xml" hash="d74d0f2e336a8eb2fdc40322ac07a71d"/></dir></target><target name="magelocal"><dir name="Magekul"><dir name="Tweets"><dir name="Block"><file name="Tweets.php" hash="2648dd6344af5f1608aca81a4f1a89ff"/></dir><dir name="Helper"><file name="Data.php" hash="0a8f87579752f12d98879fc9ff9b137f"/></dir><dir name="Model"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Source"><file name="Display.php" hash="4892167de73d5d61519026dd4adec3c3"/><file name="Numbers.php" hash="3276abf8656839899732779439a4f5b1"/></dir></dir></dir></dir><file name="Layout.php" hash="2c12c45117d400c2a1d656f1c2710a5b"/><dir name="System"><dir name="Config"><file name="Position.php" hash="465153332450dd890f8887f4d4553cf0"/></dir></dir><file name="Theme.php" hash="9ad7f3d11b417039174e447a494a957b"/></dir><dir name="etc"><file name="adminhtml.xml" hash="b4a54ff531101b81d0c97719325aba58"/><file name="config.xml" hash="0ca2d942506faf5259e5f10aa69525e0"/><file name="system.xml" hash="43537057244bec7f99d23d2f1c519fca"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="tweets.xml" hash="e3a8e547078a61714ac290b9f116b557"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="magekul_tweets.xml" hash="d322d8d60acfa1072b4aac14a4e04cb9"/></dir><dir name="template"><dir name="magekul"><dir name="tweets"><file name="blank.phtml" hash="c6862aa73248caa5659866b14a5dca9e"/><file name="custom_style.phtml" hash="5dcc7096c651831aca4ecc05e26cc587"/><file name="tweets.phtml" hash="1d2c17b3ecc0891ce5dcacd66e3ec4a6"/></dir></dir></dir></dir></dir></dir></target><target name="magelib"><dir name="twitteroauth"><file name="OAuth.php" hash="d7b40029f9d61580663a04727d166156"/><file name="twitteroauth.php" hash="c329e25121783a292524acaea23bb28d"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="font-awesome.min.css" hash="bbfef9385083d307ad2692c0cf99f611"/><file name="vivacity_tweets.css" hash=""/></dir><dir name="fonts"><file name="FontAwesome.otf" hash="87d8ca3ddc57e7d2da6226e480f90457"/><file name="fontawesome-webfont.eot" hash="32400f4e08932a94d8bfd2422702c446"/><file name="fontawesome-webfont.svg" hash="f775f9cca88e21d45bebe185b27c0e5b"/><file name="fontawesome-webfont.ttf" hash="a3de2170e4e9df77161ea5d3f31b2668"/><file name="fontawesome-webfont.woff" hash="a35720c2fed2c7f043bc7e4ffb45e073"/><file name="fontawesome-webfont.woff2" hash="db812d8a70a4e88e888744c1c9a27e89"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>2.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

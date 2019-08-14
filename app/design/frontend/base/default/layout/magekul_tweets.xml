@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout version="2.0.1">
+	<default>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/magekul_tweets.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/font-awesome.min.css</stylesheet></action>
+		</reference>
+ 		<reference name="content">
+      			<block type="tweets/tweets" template="magekul/tweets/custom_style.phtml" />
+    		</reference>
+		<reference name="left">
+			<block type="tweets/tweets" name="left.tweets" before="-" template="magekul/tweets/tweets.phtml">
+				<action method="setData"><name>position</name><value>left</value></action>
+			</block>
+		</reference>
+		<reference name="right">
+			<block type="tweets/tweets" name="right.tweets" before="-" template="magekul/tweets/tweets.phtml">
+				<action method="setData"><name>position</name><value>right</value></action>
+			</block>
+		</reference>
+	</default>
+</layout>
