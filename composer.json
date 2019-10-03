@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Latest_Twitter_Feeds",
+    "name": "OpenMageModuleFostering\/Latest_Twitter_Feeds",
     "type": "magento-module",
     "license": "Open-software-license",
     "homepage": "",
     "description": "Latest Twitter Feeds Extension is Powered with new oAuth API 1.1. and it will show your latest twitter feeds in your website sidebar as well as on any CMS page of your choice. ",
     "authors": [
-    {
-        "name": "Magekul Software",
-        "email": "magekulsoftware@gmail.com"
-    }
-],
+        {
+            "name": "Magekul Software",
+            "email": "magekulsoftware@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
